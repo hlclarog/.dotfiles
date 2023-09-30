@@ -1,4 +1,4 @@
-export DOTFILES_PATH="/Users/hclaro/.dotfiles"
+export DOTFILES_PATH="/home/hlclarog/.dotfiles"
 export DOTLY_PATH="$DOTFILES_PATH/modules/dotly"
 export DOTLY_THEME="codely"
 
