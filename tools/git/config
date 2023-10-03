@@ -1,0 +1,26 @@
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/github-hlclarog
+  IdentitiesOnly yes
+
+# Host bitbucket-corporate
+#      HostName bitbucket.org
+#      User git
+#      IdentityFile ~/.ssh/id_rsa_corp
+#      IdentitiesOnly yes
+#
+# Host bitbucket-personal
+#        HostName bitbucket.org
+#        User git
+#        IdentityFile ~/.ssh/id_rsa_personal
+#        IdentitiesOnly yes
+#
+# Host myserver
+#        HostName ssh.username.com
+#        Port 1111
+#        IdentityFile ~/.ssh/id_rsa_personal
+#        IdentitiesOnly yes
+#        User username
+#        IdentitiesOnly yes
+

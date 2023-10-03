@@ -29,5 +29,5 @@ source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 
 # own config
-source "$DOTFILES_PATH/shell/zsh/tools/ssh-git.sh"
+# source "$DOTFILES_PATH/shell/zsh/tools/ssh-git.sh"
 
