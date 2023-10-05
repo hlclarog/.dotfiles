@@ -27,3 +27,13 @@ bash <(curl -s https://raw.githubusercontent.com/CodelyTV/dotly/HEAD/restorer)
 You need to know your GitHub username, repository and install ssh key if your repository is private.
 
 It also supports other git repos, but you need to know your git repository url.
+
+## Zim Bug fixes
+
+After restoring if you have problems with zim modules, this folder should be deleted.
+
+`shell/zsh/.zim`
+
+Execute this command
+
+`DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install`
