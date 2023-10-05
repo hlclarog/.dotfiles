@@ -31,16 +31,5 @@ source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 # own config
 # source "$DOTFILES_PATH/shell/zsh/tools/ssh-git.sh"
 
-# History settings (don't save dupes, big history, etc.)
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-
-# # own Ownership plugins
-# source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# plugins+=(git)
-# fpath=(~/.zsh/zsh-completions/src $fpath)
-# autoload -U compinit && compinit
-# source ~/.zsh/zsh-async/async.zsh
-# plugins+=(async)
+## include Homebrew in PATH
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
