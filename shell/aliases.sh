@@ -32,11 +32,12 @@ alias up='dot package update_all'
 
 # own documents code
 alias cdp='cd $HOME/Projects'
-alias cdc='cdp && cd _code && la'
-alias cdt2='cdp && cd trip2 && ls'
-alias cdtas='dp && cd ta-schedule && ls'
-alias cdjob='cdp && cd job && ls'
-alias cdrh='cdp && cd rh && ls'
+alias cdw='cdp; cd _work'
+alias cdc='cdw && cd _code && la'
+alias cdt2='cdw && cd trip2 && ls'
+alias cdtas='cdw && cd ta-schedule && ls'
+alias cdjob='cdw && cd job && ls'
+alias cdrh='cdw && cd rh && ls'
 
 alias cls='clear'
 
