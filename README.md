@@ -30,10 +30,19 @@ It also supports other git repos, but you need to know your git repository url.
 
 ## Zim Bug fixes
 
-After  restoring if you have problems with zim modules, this folder should be deleted.
+After the restore if you have problems with the zim modules, this folder must be deleted, you must restart the terminal, then use zsh to run the following command
 
-`shell/zsh/.zim`
+```bash
+zsh
+```
+
+```bash 
+rm -r $DOTFILES_PATH/shell/zsh/.zim
+```
 
 Execute this command
 
-`DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install`
+
+```bash
+DOTFILES_PATH="$HOME/.dotfiles" DOTLY_PATH="$DOTFILES_PATH/modules/dotly" "$DOTLY_PATH/bin/dot" self install
+```
