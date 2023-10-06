@@ -45,5 +45,8 @@ alias cls='clear'
 alias nad='nvm alias default'
 alias nu='nvm use'
 
-
 #alias bat='bat --style=plain'
+
+# own bat
+alias bat='batcat'
+alias batp='batcat --style=plain'
