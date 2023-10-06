@@ -1,27 +1,34 @@
+#github
 Host github.com
   HostName github.com
-  User git
+  User hlclarog
   IdentityFile ~/.ssh/github-hlclarog
   IdentitiesOnly yes
 
+#bitbucket
+Host bitbucket.org-bitbucket_hclaro
+  HostName bitbucket.org
+  User hclaro
+  IdentityFile ~/.ssh/bit-hclaro
+  IdentitiesOnly yes
 
-# Host bitbucket-corporate
-#      HostName bitbucket.org
-#      User git
-#      IdentityFile ~/.ssh/id_rsa_corp
-#      IdentitiesOnly yes
-#
-# Host bitbucket-personal
-#        HostName bitbucket.org
-#        User git
-#        IdentityFile ~/.ssh/id_rsa_personal
-#        IdentitiesOnly yes
-#
-# Host myserver
-#        HostName ssh.username.com
-#        Port 1111
-#        IdentityFile ~/.ssh/id_rsa_personal
-#        IdentitiesOnly yes
-#        User username
-#        IdentitiesOnly yes
+#bitbucket_username2 account
+Host bitbucket.org-bitbucket_username2
+  HostName bitbucket.org
+  User git
+  IdentityFile ~/.ssh/{ssh-key-bitbucket_username2}
+  IdentitiesOnly yes
 
+Host bitbucket-personal
+  HostName bitbucket.org
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
+
+Host myserver
+  HostName ssh.username.com
+  Port 1111
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
+  User username
+  IdentitiesOnly yes
