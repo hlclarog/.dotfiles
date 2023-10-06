@@ -30,7 +30,7 @@ It also supports other git repos, but you need to know your git repository url.
 
 ## Zim Bug fixes
 
-After restoring if you have problems with zim modules, this folder should be deleted.
+After  restoring if you have problems with zim modules, this folder should be deleted.
 
 `shell/zsh/.zim`
 
