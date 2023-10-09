@@ -32,12 +32,12 @@ alias up='dot package update_all'
 
 # own documents code
 alias cdp='cd $HOME/Projects'
-alias cdw='cdp; cd _work'
-alias cdc='cdw && cd _code && la'
-alias cdt2='cdw && cd trip2 && ls'
-alias cdtas='cdw && cd ta-schedule && ls'
-alias cdjob='cdw && cd job && ls'
-alias cdrh='cdw && cd rh && ls'
+alias cdc='cd && cd code && la'
+alias cdw='cdp; cd work'
+alias cdt2='cdw; cd trip2 && la'
+alias cdtas='cdw; cd ta-schedule && la'
+alias cdjob='cdw; cd job && la'
+alias cdrh='cdw; cd rh && la'
 
 alias cls='clear'
 
@@ -45,8 +45,9 @@ alias cls='clear'
 alias nad='nvm alias default'
 alias nu='nvm use'
 
-#alias bat='bat --style=plain'
-
 # own bat
 alias bat='batcat'
 alias batp='batcat --style=plain'
+
+# ssh start agent and add key
+alias ssh-start='. $DOTFILES_PATH/tools/git/ssh-start-agent.sh'
